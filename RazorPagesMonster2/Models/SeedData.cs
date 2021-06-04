@@ -26,7 +26,8 @@ namespace RazorPagesMonster2.Models
                         MonsterName = "Psycho",
                         OriginDate = DateTime.Parse("1960-9-8"),
                         Genre = "Crazy Dudes",
-                        Price = 1.25M
+                        Price = 1.25M,
+                        Rating = "A"
                     },
 
                     new Monster
@@ -34,7 +35,8 @@ namespace RazorPagesMonster2.Models
                         MonsterName = "Slimer",
                         OriginDate = DateTime.Parse("1984-6-8"),
                         Genre = "Ghosts",
-                        Price = 32.00M
+                        Price = 32.00M,
+                        Rating = "A"
                     },
 
                     new Monster
@@ -42,7 +44,8 @@ namespace RazorPagesMonster2.Models
                         MonsterName = "Tom(Tom and Jerry)",
                         OriginDate = DateTime.Parse("1940-7-1"),
                         Genre = "Cartoon Animal Bullys",
-                        Price = 4.50M
+                        Price = 4.50M,
+                        Rating = "A"
                     },
 
                     new Monster
@@ -50,7 +53,8 @@ namespace RazorPagesMonster2.Models
                         MonsterName = "Godzilla",
                         OriginDate = DateTime.Parse("1954-7-1"),
                         Genre = "Radioactive Dinosaurs",
-                        Price = 57.00M
+                        Price = 57.00M,
+                        Rating = "A"
                     }
                 );
                 context.SaveChanges();
